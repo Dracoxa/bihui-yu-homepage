@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bihui Yu (于碧辉), researcher and doctoral supervisor at Shenyang Institute of Computing Technology, Chinese Academy of Sciences. Selected CCF A/B publications.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Bihui Yu (于碧辉) | Academic Homepage</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#content">跳转到正文 / Skip to content</a>
+<div class="site" id="top">
+  <div class="toolbar">
+    <span class="site-label" data-i18n="siteLabel">Academic Homepage / 学术个人主页</span>
+    <div class="language" role="group" aria-label="选择语言 / Select language">
+      <button type="button" class="lang-button" data-language="zh" aria-pressed="false">中文</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" class="lang-button is-active" data-language="en" aria-pressed="true">English</button>
+    </div>
+  </div>
+
+  <main id="content">
+    <header class="profile" aria-label="个人简介">
+      <div class="profile-picture">
+        <div class="portrait-initial" aria-hidden="true">BY</div>
+        <img src="https://raw.githubusercontent.com/Dracoxa/dracoxa.github.io/main/content/authors/Bihui%20Yu/avatar.jpg" alt="Bihui Yu / 于碧辉" loading="eager" onload="this.classList.add('is-loaded')" onerror="this.remove()">
+      </div>
+      <div class="profile-info">
+        <h1><span>Bihui Yu</span> <small>（于碧辉）</small></h1>
+        <p class="position" data-i18n="position">Researcher · Doctoral Supervisor</p>
+        <p><a href="https://www.sict.ac.cn/" target="_blank" rel="noopener noreferrer" data-i18n="institute">Shenyang Institute of Computing Technology, Chinese Academy of Sciences</a><br><span data-i18n="affiliation">University of Chinese Academy of Sciences</span></p>
+        <p class="bio" data-i18n="intro">研究领域涵盖人工智能、多模态信息处理、知识工程与自然语言处理，关注复杂信息的表示、理解与推理。</p>
+        <nav class="shortcuts" aria-label="Page sections">
+          <a href="#news" data-i18n="navNews">动态</a><span class="separator">|</span>
+          <a href="#interests" data-i18n="navResearch">研究方向</a><span class="separator">|</span>
+          <a href="#appointment" data-i18n="navAcademic">学术简介</a><span class="separator">|</span>
+          <a href="#publications" data-i18n="navPapers">论文</a><span class="separator">|</span>
+          <a href="#contact" data-i18n="navContact">联系</a>
+        </nav>
+        <p class="contact-line"><span data-i18n="emailLabel">邮箱</span>：<a href="mailto:yubihui@sict.ac.cn">yubihui@sict.ac.cn</a></p>
+        <p class="profile-links">[<a href="https://people.ucas.ac.cn/~0031932" target="_blank" rel="noopener noreferrer" data-i18n="ucas">国科大导师主页</a>] [<a href="https://dblp.org/pid/323/7684.html" target="_blank" rel="noopener noreferrer">DBLP</a>] [<a href="mailto:yubihui@sict.ac.cn" data-i18n="contactMe">联系我</a>]</p>
+        <p class="welcome" data-i18n="welcome">欢迎就多模态智能、知识工程与科研合作开展学术交流。</p>
+      </div>
+    </header>
+
+    <section id="news" aria-labelledby="news-title">
+      <h2 id="news-title" data-i18n="newsTitle">News</h2>
+      <ul class="news-list" id="news-list"></ul>
+      <button type="button" id="toggle-news" class="text-action" data-i18n="moreNews" aria-expanded="false">显示更多动态 ↓</button>
+    </section>
+
+    <section id="interests" aria-labelledby="interests-title">
+      <h2 id="interests-title" data-i18n="researchTitle">Research Interest</h2>
+      <p class="section-intro" data-i18n="researchLead">主要关注人工智能及多模态数据理解与推理：</p>
+      <ul class="plain-list" id="interests-list"></ul>
+    </section>
+
+    <section id="appointment" aria-labelledby="academic-title">
+      <h2 id="academic-title" data-i18n="academicTitle">Academic Profile</h2>
+      <ul class="plain-list" id="academic-list"></ul>
+    </section>
+
+    <section id="publications" aria-labelledby="papers-title">
+      <h2 id="papers-title" data-i18n="papersTitle">Selected Publications</h2>
+      <p class="small-note" data-i18n="papersNote">仅展示已核验的 CCF A / B 类高水平论文，按发表年份排列。合作署名论文也包含在内。</p>
+      <div class="paper-group" id="papers-list" aria-live="polite"></div>
+      <p class="small-note disclaimer" data-i18n="verifyNote">Note: Original paper figures are used when available; a temporary illustration appears if no verified image source is available.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" data-i18n="contactTitle">Contact</h2>
+      <p><span data-i18n="contactDesc">欢迎学术交流与科研合作，请通过邮箱联系：</span> <a href="mailto:yubihui@sict.ac.cn">yubihui@sict.ac.cn</a></p>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>© 2026 Bihui Yu (于碧辉)</span>
+    <span data-i18n="footerNote">参考经典学术主页布局 · 2026.11 更新</span>
+    <a href="#top" data-i18n="backTop">返回顶部 ↑</a>
+  </footer>
+</div>
+<script src="papers-data.js"></script>
+<script src="app.js"></script>
+</body></html>
