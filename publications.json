@@ -4,8 +4,8 @@
     "year": 2026,
     "title": "PAGER: Bridging the Semantic-Execution Gap in Point-Precise Geometric GUI Control",
     "title_zh": "PAGER：弥合精确几何图形界面控制中的语义与执行差距",
-    "venue": "arXiv",
-    "level": "Preprint",
+    "venue": "NeurIPS",
+    "level": "CCF A",
     "authors": [
       "Jingxuan Wei",
       "Xi Bai",
@@ -26,15 +26,18 @@
     "link": "https://arxiv.org/abs/2605.15963",
     "thumbnail": "assets/geometry.svg",
     "thumbnail_fallback": "assets/geometry.svg",
-    "teaser_status": "placeholder"
+    "teaser_status": "placeholder",
+    "status": "已录用",
+    "category": "会议",
+    "accepted": true
   },
   {
     "id": "tracer",
     "year": 2026,
     "title": "TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents",
     "title_zh": "TRACER：面向多模态工具使用智能体的可验证生成溯源",
-    "venue": "arXiv",
-    "level": "Preprint",
+    "venue": "NeurIPS",
+    "level": "CCF A",
     "authors": [
       "Bihui Yu",
       "Caijun Jia",
@@ -53,7 +56,10 @@
     "link": "https://arxiv.org/abs/2605.09934",
     "thumbnail": "assets/research.svg",
     "thumbnail_fallback": "assets/research.svg",
-    "teaser_status": "placeholder"
+    "teaser_status": "placeholder",
+    "status": "已录用",
+    "category": "会议",
+    "accepted": true
   },
   {
     "year": 2026,
