@@ -18,7 +18,8 @@ const news=[
 const interests={zh:['多模态学习、理解与推理','知识工程与知识图谱','自然语言处理与大语言模型','科学智能与可信人工智能'],en:['Multimodal Learning, Understanding, and Reasoning','Knowledge Engineering and Knowledge Graphs','Natural Language Processing and Large Language Models','AI for Science and Trustworthy Artificial Intelligence']};
 const academic={zh:['中国科学院沈阳计算技术研究所 · 研究员、博士生导师','研究领域：人工智能、知识工程、多模态信息处理'],en:['Researcher and Doctoral Supervisor, Shenyang Institute of Computing Technology, Chinese Academy of Sciences','Research areas: Artificial Intelligence, Knowledge Engineering, and Multimodal Information Processing']};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const papers=Array.isArray(window.PUBLICATIONS)?window.PUBLICATIONS:[];
+const hiddenPapers = new Set(['mChartQA and mChartQABench: A Multimodal-only Solution for Complex Chart Question-Answering', 'Mitigating Error Propagation in LLM Mathematical Reasoning via Disambiguation and Back-Verification']);
+const papers=Array.isArray(window.PUBLICATIONS)?window.PUBLICATIONS.filter(p=>!hiddenPapers.has(p.title)):[];
 const list=document.getElementById('papers-list');
 let lang='en', expanded=false;
 function allNews(){
